@@ -1,0 +1,7 @@
+{
+  "name": "pkg-two",
+  "version": "1.0.0",
+  "private": true,
+  "ben:src": "./src",
+  "main": "./dist/main.js"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "pkg-one",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "pkg-two": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "dev": "WATCH=1 yarn build",
+    "build": "webpack --config webpack.config.js",
+    "start": "node ./dist/main.js"
+  },
+  "main": "./dist/main.js"
+}

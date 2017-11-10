@@ -1,0 +1,15 @@
+{
+  "name": "monorepo-webpack-live-src-test",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "cd packages/pkg-one && yarn start",
+    "postinstall": "cd packages/pkg-one && yarn build && yarn start"
+  },
+  "devDependencies": {}
+}
